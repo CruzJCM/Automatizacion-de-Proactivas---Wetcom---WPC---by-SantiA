@@ -1,0 +1,39 @@
+{
+    "vsphere": [
+      {
+        "ToString": "Tiny",
+        "vcpus": 2,
+        "ram": 10,
+        "esxis": 10,
+        "vms": 100
+      },
+      {
+        "ToString": "Small",
+        "vcpus": 4,
+        "ram": 16,
+        "esxis": 100,
+        "vms": 1000
+      },
+      {
+        "ToString": "Medium",
+        "vcpus": 8,
+        "ram": 24,
+        "esxis": 400,
+        "vms": 4000
+      },
+      {
+        "ToString": "Large",
+        "vcpus": 16,
+        "ram": 32,
+        "esxis": 1000,
+        "vms": 10000
+      },
+      {
+        "ToString": "X-Large",
+        "vcpus": 24,
+        "ram": 48,
+        "esxis": 2000,
+        "vms": 35000
+      }
+    ]
+  }
