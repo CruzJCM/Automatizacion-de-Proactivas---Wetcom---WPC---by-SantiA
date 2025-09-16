@@ -1,0 +1,10 @@
+{
+	"APP_HEADER": "DEVOPS - OPERACIONES",
+	"PLUGINS_FOLDER": "./automatizaciones",
+	"REPORTS_FOLDER": "./reportes",
+	"OLD_REPORTS_FOLDER": "./reportes/old",
+
+	"API_REPORTES":{
+		"URL": "http://devops.wetcom.net:8084/upload_reports"
+	}
+}
