@@ -18,7 +18,6 @@ function Get-DatosProactivas($vcenters) {
 function Start-DatosProactivas($vcenters){
     $proactiva = New-Object Proactiva
 
-    # --- [NUEVO] Se inicializa una lista para guardar los datos de los vCenters ---
     $vCenterData = @()
 
     foreach($vcenter in $vcenters.conn){
@@ -37,10 +36,11 @@ function Start-DatosProactivas($vcenters){
         $clusters = Get-Cluster -Server $vcenter
         Write-Host "`t`t"$clusters.length" Clusters found"
 
-        # --- [NUEVO] Bloque para recopilar la información del vCenter ---
         Write-Host "`tGathering vCenter Appliance Info..."
-        # Buscamos la VM cuyo nombre coincida con el del servidor vCenter
-        $vcenter_vm = $vms | Where-Object { $_.Name -eq $vcenter.Name }
+        
+        $vcenter_short_name = ($vcenter.Name).Split('.')[0]
+
+        $vcenter_vm = $vms | Where-Object { $_.Name -eq $vcenter.Name -or $_.Name -eq $vcenter_short_name }
         
         $vCenterData += [PSCustomObject]@{
             "vCenter Server" = $vcenter.Name
@@ -48,7 +48,6 @@ function Start-DatosProactivas($vcenters){
             "Version"        = $vcenter.Version
             "Build"          = $vcenter.Build
         }
-        # --- Fin del bloque nuevo ---
 
         $proactiva.processEsxi($hosts)
         $proactiva.processNic($hosts, $vdswitches)
@@ -64,7 +63,6 @@ function Start-DatosProactivas($vcenters){
         $proactiva.executeAlarm($hosts)
     }
     
-    # --- [NUEVO] Se procesa la nueva información recolectada ---
     $proactiva.processVcenter($vCenterData)
 
     $file = [PSCustomObject] @{

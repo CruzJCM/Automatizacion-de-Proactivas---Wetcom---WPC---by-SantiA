@@ -1,0 +1,203 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">VMware.VimAutomation.Vds</S>
+      <S N="Version">12.1.0.17001377</S>
+      <S N="Type">Module</S>
+      <S N="Description">This Windows PowerShell module contains PowerCLI VDS cmdlets.</S>
+      <S N="Author">VMware</S>
+      <S N="CompanyName">VMware</S>
+      <S N="Copyright">Copyright (c) VMware, Inc. All rights reserved.</S>
+      <DT N="PublishedDate">2020-10-12T10:25:56-03:00</DT>
+      <Nil N="InstalledDate" />
+      <Nil N="UpdatedDate" />
+      <Nil N="LicenseUri" />
+      <Nil N="ProjectUri" />
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="2">
+        <TN RefId="2">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="3">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="4">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Add-VDSwitchPhysicalNetworkAdapter</S>
+                <S>Add-VDSwitchVMHost</S>
+                <S>Export-VDPortGroup</S>
+                <S>Export-VDSwitch</S>
+                <S>Get-VDBlockedPolicy</S>
+                <S>Get-VDPort</S>
+                <S>Get-VDPortgroup</S>
+                <S>Get-VDPortgroupOverridePolicy</S>
+                <S>Get-VDSecurityPolicy</S>
+                <S>Get-VDSwitch</S>
+                <S>Get-VDSwitchPrivateVlan</S>
+                <S>Get-VDTrafficShapingPolicy</S>
+                <S>Get-VDUplinkLacpPolicy</S>
+                <S>Get-VDUplinkTeamingPolicy</S>
+                <S>New-VDPortgroup</S>
+                <S>New-VDSwitch</S>
+                <S>New-VDSwitchPrivateVlan</S>
+                <S>Remove-VDPortGroup</S>
+                <S>Remove-VDSwitch</S>
+                <S>Remove-VDSwitchPhysicalNetworkAdapter</S>
+                <S>Remove-VDSwitchPrivateVlan</S>
+                <S>Remove-VDSwitchVMHost</S>
+                <S>Set-VDBlockedPolicy</S>
+                <S>Set-VDPort</S>
+                <S>Set-VDPortgroup</S>
+                <S>Set-VDPortgroupOverridePolicy</S>
+                <S>Set-VDSecurityPolicy</S>
+                <S>Set-VDSwitch</S>
+                <S>Set-VDTrafficShapingPolicy</S>
+                <S>Set-VDUplinkLacpPolicy</S>
+                <S>Set-VDUplinkTeamingPolicy</S>
+                <S>Set-VDVlanConfiguration</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="3" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="3" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Add-VDSwitchPhysicalNetworkAdapter</S>
+                <S>Add-VDSwitchVMHost</S>
+                <S>Export-VDPortGroup</S>
+                <S>Export-VDSwitch</S>
+                <S>Get-VDBlockedPolicy</S>
+                <S>Get-VDPort</S>
+                <S>Get-VDPortgroup</S>
+                <S>Get-VDPortgroupOverridePolicy</S>
+                <S>Get-VDSecurityPolicy</S>
+                <S>Get-VDSwitch</S>
+                <S>Get-VDSwitchPrivateVlan</S>
+                <S>Get-VDTrafficShapingPolicy</S>
+                <S>Get-VDUplinkLacpPolicy</S>
+                <S>Get-VDUplinkTeamingPolicy</S>
+                <S>New-VDPortgroup</S>
+                <S>New-VDSwitch</S>
+                <S>New-VDSwitchPrivateVlan</S>
+                <S>Remove-VDPortGroup</S>
+                <S>Remove-VDSwitch</S>
+                <S>Remove-VDSwitchPhysicalNetworkAdapter</S>
+                <S>Remove-VDSwitchPrivateVlan</S>
+                <S>Remove-VDSwitchVMHost</S>
+                <S>Set-VDBlockedPolicy</S>
+                <S>Set-VDPort</S>
+                <S>Set-VDPortgroup</S>
+                <S>Set-VDPortgroupOverridePolicy</S>
+                <S>Set-VDSecurityPolicy</S>
+                <S>Set-VDSwitch</S>
+                <S>Set-VDTrafficShapingPolicy</S>
+                <S>Set-VDUplinkLacpPolicy</S>
+                <S>Set-VDUplinkTeamingPolicy</S>
+                <S>Set-VDVlanConfiguration</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="3" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="1" />
+        <LST>
+          <Obj RefId="7">
+            <TN RefId="3">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">VMware.VimAutomation.Storage</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">12.1.0.17001270</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:VMware.VimAutomation.Storage/12.1.0.17001270</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="8">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Copyright (c) VMware, Inc. All rights reserved.</S>
+          <S N="description">This Windows PowerShell module contains PowerCLI VDS cmdlets.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">513091</S>
+          <S N="downloadCount">3793899</S>
+          <S N="packageSize">454302</S>
+          <S N="published">10/12/2020 10:25:56 AM -03:00</S>
+          <S N="created">10/12/2020 10:25:56 AM -03:00</S>
+          <S N="lastEdited">10/13/2020 11:26:24 AM -03:00</S>
+          <S N="lastUpdated">2/2/2021 5:27:10 PM -03:00</S>
+          <S N="tags">PSModule PSCmdlet_Add-VDSwitchPhysicalNetworkAdapter PSCommand_Add-VDSwitchPhysicalNetworkAdapter PSCmdlet_Add-VDSwitchVMHost PSCommand_Add-VDSwitchVMHost PSCmdlet_Export-VDPortGroup PSCommand_Export-VDPortGroup PSCmdlet_Export-VDSwitch PSCommand_Export-VDSwitch PSCmdlet_Get-VDBlockedPolicy PSCommand_Get-VDBlockedPolicy PSCmdlet_Get-VDPort PSCommand_Get-VDPort PSCmdlet_Get-VDPortgroup PSCommand_Get-VDPortgroup PSCmdlet_Get-VDPortgroupOverridePolicy PSCommand_Get-VDPortgroupOverridePolicy PSCmdlet_Get-VDSecurityPolicy PSCommand_Get-VDSecurityPolicy PSCmdlet_Get-VDSwitch PSCommand_Get-VDSwitch PSCmdlet_Get-VDSwitchPrivateVlan PSCommand_Get-VDSwitchPrivateVlan PSCmdlet_Get-VDTrafficShapingPolicy PSCommand_Get-VDTrafficShapingPolicy PSCmdlet_Get-VDUplinkLacpPolicy PSCommand_Get-VDUplinkLacpPolicy PSCmdlet_Get-VDUplinkTeamingPolicy PSCommand_Get-VDUplinkTeamingPolicy PSCmdlet_New-VDPortgroup PSCommand_New-VDPortgroup PSCmdlet_New-VDSwitch PSCommand_New-VDSwitch PSCmdlet_New-VDSwitchPrivateVlan PSCommand_New-VDSwitchPrivateVlan PSCmdlet_Remove-VDPortGroup PSCommand_Remove-VDPortGroup PSCmdlet_Remove-VDSwitch PSCommand_Remove-VDSwitch PSCmdlet_Remove-VDSwitchPhysicalNetworkAdapter PSCommand_Remove-VDSwitchPhysicalNetworkAdapter PSCmdlet_Remove-VDSwitchPrivateVlan PSCommand_Remove-VDSwitchPrivateVlan PSCmdlet_Remove-VDSwitchVMHost PSCommand_Remove-VDSwitchVMHost PSCmdlet_Set-VDBlockedPolicy PSCommand_Set-VDBlockedPolicy PSCmdlet_Set-VDPort PSCommand_Set-VDPort PSCmdlet_Set-VDPortgroup PSCommand_Set-VDPortgroup PSCmdlet_Set-VDPortgroupOverridePolicy PSCommand_Set-VDPortgroupOverridePolicy PSCmdlet_Set-VDSecurityPolicy PSCommand_Set-VDSecurityPolicy PSCmdlet_Set-VDSwitch PSCommand_Set-VDSwitch PSCmdlet_Set-VDTrafficShapingPolicy PSCommand_Set-VDTrafficShapingPolicy PSCmdlet_Set-VDUplinkLacpPolicy PSCommand_Set-VDUplinkLacpPolicy PSCmdlet_Set-VDUplinkTeamingPolicy PSCommand_Set-VDUplinkTeamingPolicy PSCmdlet_Set-VDVlanConfiguration PSCommand_Set-VDVlanConfiguration PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2021-02-02T17:27:10Z</S>
+          <S N="NormalizedVersion">12.1.0.17001377</S>
+          <S N="Authors">VMware</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">VMware.VimAutomation.Vds.nuspec|EULA.rtf|VMware.VimAutomation.Vds.cat|VMware.VimAutomation.Vds.psd1|VMware.VimAutomation.Vds.psm1|net45\ComponentDescriptor-VMware.VimAutomation.Vds.Commands.xml|net45\ComponentDescriptor-VMware.VimAutomation.Vds.xml|net45\PackageManifest.xml|net45\VMware.VimAutomation.Vds.Commands.dll|net45\VMware.VimAutomation.Vds.Commands.dll-Help.xml|net45\VMware.VimAutomation.Vds.Format.ps1xml|net45\VMware.VimAutomation.Vds.Impl.dll|net45\VMware.VimAutomation.Vds.Interop.dll|net45\VMware.VimAutomation.Vds.ps1|net45\VMware.VimAutomation.Vds.psd1|net45\VMware.VimAutomation.Vds.Types.dll|netcoreapp2.0\ComponentDescriptor-VMware.VimAutomation.Vds.Commands.xml|netcoreapp2.0\ComponentDescriptor-VMware.VimAutomation.Vds.xml|netcoreapp2.0\PackageManifest.xml|netcoreapp2.0\VMware.VimAutomation.Vds.Commands.dll|netcoreapp2.0\VMware.VimAutomation.Vds.Commands.dll-Help.xml|netcoreapp2.0\VMware.VimAutomation.Vds.Format.ps1xml|netcoreapp2.0\VMware.VimAutomation.Vds.Impl.dll|netcoreapp2.0\VMware.VimAutomation.Vds.Interop.dll|netcoreapp2.0\VMware.VimAutomation.Vds.ps1|netcoreapp2.0\VMware.VimAutomation.Vds.psd1|netcoreapp2.0\VMware.VimAutomation.Vds.Types.dll</S>
+          <S N="GUID">6574911b-e5e2-4ffe-aa15-020d9cef91c4</S>
+          <S N="PowerShellVersion">3.0</S>
+          <S N="CompanyName">VMware, Inc.</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\gquiroga\VMware.VimAutomation.Vds\12.1.0.17001377</S>
+    </MS>
+  </Obj>
+</Objs>

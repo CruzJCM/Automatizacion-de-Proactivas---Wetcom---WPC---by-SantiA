@@ -1,0 +1,6 @@
+/reportes/*.json
+/reportes/*zip
+/reportes/vds_configuration/*zip
+/reportes/old/*zip
+.vscode/
+app/config_dev.json
